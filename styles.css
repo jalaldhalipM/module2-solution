@@ -8,15 +8,10 @@
     font-family: "times new roman", cursive, sans-serif;
   }
   
-  .row{
-    margin-top: 5%;
-    margin-bottom: 5%;
-  }
-  
   h1 {
     margin-bottom: 15px;
     text-align: center;
-    color: #ff4532;
+    color: #000000;
     font-size: 50px;
   }
   
@@ -35,10 +30,10 @@
     height: 40px;
     padding: 5px;
     float: right;
-    margin-right: 36px;
+    margin-right: 8%;
     margin-top: 0px;
     font-weight: bold;
-    position: relative;
+    position: static;
   }
   
   .content{
@@ -59,10 +54,10 @@
   
   .name2{
     color: white;
-    background-color: #FF0000;
+    background-color: #ad4b4b;
   }
   .name3{
-    background-color: #FFFF00;
+    background-color: rgb(202, 202, 93);
   }
   
   
@@ -85,18 +80,11 @@
       margin-left: -10px;
       width: 100%;
     }
-    .name3{
-      margin-right: 65px;
-      width: 100px;
-    }
   }
   
   @media (min-width: 0px) and (max-width: 767px) {
     .col-sm-12 {
         float: left;
       width: 100%;
-    }
-    .content-name{
-      margin-right: 30px;
     }
   }
